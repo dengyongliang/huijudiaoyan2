@@ -1,0 +1,301 @@
+@charset "UTF-8";
+.main{
+  height: 100vh;
+}
+.main .container{
+  padding: 0px;
+  height: 100vh;
+}
+.main .title-info{
+  background: #f1f1f1;
+  text-align: center;
+  width: 100%;
+  height: 47px;
+  position: fixed;
+  border-bottom: 1px solid #dcdcdc;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.main .title-info h4{
+  font-size: 14px;
+  line-height: 47px;
+  padding: 0px;
+  margin: 0px;
+}
+.main .title-info .back{
+  position: absolute;
+  left: 15px;
+  top: 9px;
+  text-decoration: none;
+}
+.main .title-info .back .icon{
+  margin-right: 10px;
+}
+.main .title-info .back .icon img{
+  height: 30px;
+}
+.main .progress{
+  width: 100%;
+  height: 4px;
+  background: #cacaca;
+  margin-bottom: 0px;
+}
+.main .progress .val{
+  background:url(../img/progress.png) repeat-y 0 0;
+  background-size: 100% 100%;
+  width: 50%;
+  height: 100%;
+}
+.main .row{
+  margin: 0px;
+  background: #fff;
+}
+.main .row>div{
+  padding: 0px;
+}
+.main .row .col-left{
+  height: 50vh;
+  background: #fff;
+}
+.main .row .col-left .scroll{
+  overflow: auto;
+  height: calc(100% - 44px - 45px);
+  padding: 0 15px;
+  margin-top: 44px;
+}
+.main .row .col-left .scroll img{
+  width: 100%;
+}
+.main .row .col-left .search{
+  height: 44px;
+  line-height: 44px;
+  background: #eeeeee;
+  vertical-align: middle;
+  padding: 0 15px;
+  font-size: 12px;
+  position: relative;
+  border-top: 1px solid #c6c6c6;
+}
+.main .row .col-left .search .text{
+  position: absolute;
+  left: 15px;
+}
+.main .row .col-left .search .input{
+  margin-left: 35px;
+}
+.main .row .col-left .search input{
+  height: 26px;
+  line-height: 26px;
+  width: 100%;
+  padding: 0 10px;
+}
+.main .row .col-right{
+  background: #fff;
+  height: 50vh;
+}
+.main .row .col-right .scroll{
+  overflow: auto;
+  height: calc(100% - 4px);
+  position: relative;
+}
+.main .row .col-right .list{
+  padding: 0px;
+}
+.main .row .col-right .list li{
+  list-style: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-bottom: 1px solid #ececec;
+}
+.main .row .col-right .list .required{
+  color:#eb0100;
+  display: inline-block;
+  margin-right: 5px;
+}
+.main .row .col-right .list .marks{
+  color: #747474;
+  font-size: 12px;
+  padding-left: 20px;
+}
+.main .row .col-right .list .input{
+  padding: 15px 0;
+}
+.main .row .col-right .list .input input{
+  width: 100%;
+  padding: 0 10px;
+  height: 28px;
+  line-height: 26px;
+}
+.main .row .col-right .list .select{
+  padding: 15px 0;
+}
+.main .row .col-right .list .select select{
+  width: 100%;
+  padding: 0 10px;
+  height: 28px;
+  line-height: 26px;
+  font-size: 14px;
+}
+.main .row .col-right .list .table{
+  padding: 15px 0;
+  margin-bottom: 0px;
+}
+.main .row .col-right .list table{
+  width: 100%;
+}
+.main .row .col-right .list table td,
+.main .row .col-right .list table th{
+  width: 16%;
+  text-align: center;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 5px 0;
+}
+.main .row .col-right .list table td{
+  border-bottom: 1px dashed #ececec;
+}
+.main .row .col-right .list table tr:nth-last-child(1) td{
+  border:none;
+}
+.main .row .col-right .list table .radio,
+.main .row .col-right .list table .checkbox{
+  margin: 0;
+}
+.main .btns{
+  padding: 15px;
+  background: #f5f5f7;
+  height: 64px;
+}
+.main .btn{
+  display: block;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.main footer{
+  height: 36px;
+  line-height: 36px;
+  padding: 0px 15px;
+  background: #ececee;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+  .main{
+    height: auto;
+  }
+  .main .container{
+    height: auto;
+  }
+  .main .title-info{
+    height: 127px;
+    line-height: 120px;
+    position: relative;
+    margin-top: 30px;
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(239,239,241,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,241,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(239,239,241,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efeff1',GradientType=0 ); /* IE6-9 */
+  }
+  .main .title-info h4{
+    font-size: 20px;
+    display: inline-block;
+  }
+  .main .title-info .down-time{
+    font-size: 20px;
+    color: #ef0303;
+    display: inline-block;
+    margin-left: 40px;
+  }
+  .main .title-info .down-time .icon{
+    margin-right: 10px;
+  }
+  .main .title-info .back{
+    font-size: 20px;
+    color: #333;
+    left: 30px;
+    top: 0px;
+  }
+  .main .title-info .back .icon img{
+    height: auto;
+  }
+  .main .title-info .progress{
+    height: 7px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+  }
+  .main .row .col-left{
+    height: auto;
+    padding: 30px;
+  }
+  .main .row .col-left .scroll{
+    padding: 0px;
+    overflow: hidden;
+    margin: 0px;
+  }
+  .main .row .col-left .search{
+    padding: 20px;
+    height: auto;
+    line-height: 20px;
+  }
+  .main .row .col-left .search .text{
+    position: static;
+    display: block;
+  }
+  .main .row .col-left .search .input{
+    margin: 0px;
+  }
+  .main .row .col-left .search input{
+    height: 42px;
+    line-height: 42px;
+  }
+  .main .row .col-right{
+    height: auto;
+    padding: 30px 0;
+  }
+  .main .row .col-right .list li{
+    margin-bottom: 20px;
+  }
+  .main .row .col-right .list li .radio,
+  .main .row .col-right .list li .checkbox{
+    padding: 10px 0;
+  }
+  .main .row .col-right .list .t{
+    font-size: 20px;
+  }
+  .main .row .col-right .list .input input,
+  .main .row .col-right .list .select select{
+    height: 52px;
+    line-height: 50px;
+    width: 580px;
+    padding: 0 30px;
+  }
+  .main .row .col-right .list .table{
+    width: 580px;
+  }
+  .main .row .col-right .list .table .radio,
+  .main .row .col-right .list .table .checkbox{
+    padding: 0;
+  }
+  .main .btns{
+    text-align: center;
+    padding: 48px 0;
+    height: auto;
+  }
+  .main .btns .btn{
+    width: 390px;
+    margin: 0 auto;
+  }
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+  
+}
