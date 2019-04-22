@@ -89,11 +89,6 @@ body {
 }
 /* 小屏幕（平板，大于等于 768px） */
 @media (min-width: 768px) {
-
-}
-
-/* 中等屏幕（桌面显示器，大于等于 992px） */
-@media (min-width: 992px) {
   body {
     background: url(../img/pc/login/img_01.png) no-repeat 50% 0;
     background-size: cover cover;
@@ -180,6 +175,11 @@ body {
   .form-signin .wx{
     height: auto;
   }
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+  
 }
 
 /* 大屏幕（大桌面显示器，大于等于 1200px） */

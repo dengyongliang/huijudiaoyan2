@@ -184,7 +184,14 @@
 }
 
 /* 中等屏幕（桌面显示器，大于等于 992px） */
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-xs-12{
+    width: 100%;
+  }
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
   .main{
     height: auto;
   }
@@ -293,9 +300,4 @@
     width: 390px;
     margin: 0 auto;
   }
-}
-
-/* 大屏幕（大桌面显示器，大于等于 1200px） */
-@media (min-width: 1200px) {
-  
 }
