@@ -1,29 +1,27 @@
 @charset "UTF-8";
-html{
-  height: 100%;
-}
-body {
-  height: 100%;
+.pageRegister.container{
+  height: 100vh;
   background: url(../img/m/login/img_01.png) no-repeat 50% 0;
-  background-size: auto 100%;
+  background-size: 100% 100%;
+  overflow: auto;
 }
-.form-signin {
+.pageRegister .form-signin {
   margin: 0 auto;
   text-align: center;
   padding: 0 5px;
   padding-bottom: 50px;
 }
-.form-signin .form-signin-heading{
+.pageRegister .form-signin .form-signin-heading{
   margin: 0px;
   padding: 100px 0;
 }
-.form-signin .form-signin-heading img{
+.pageRegister .form-signin .form-signin-heading img{
   width: 70%;
 }
-.form-signin .form-signin-body .item{
+.pageRegister .form-signin .form-signin-body .item{
   position: relative;
 }
-.form-signin .form-signin-body .item .code{
+.pageRegister .form-signin .form-signin-body .item .code{
   position: absolute;
   right: 0px;
   bottom: 22px;
@@ -36,8 +34,8 @@ body {
   font-style: normal;
   text-align: center;
 }
-.form-signin input[type="text"],
-.form-signin input[type="password"] {
+.pageRegister .form-signin input[type="text"],
+.pageRegister .form-signin input[type="password"] {
   width: 100%;
   height: 40px;
   line-height: 40px;
@@ -47,42 +45,42 @@ body {
   border-bottom: 1px solid #c9c9c9;
   background: none;
 }
-.form-signin .form-group-sex{
+.pageRegister .form-signin .form-group-sex{
   margin-top: 10px;
 }
-.form-signin .form-group{
+.pageRegister .form-signin .form-group{
   margin-bottom: 10px;
 }
-.form-signin .form-group .col-sm-3{
+.pageRegister .form-signin .form-group .col-sm-3{
   text-align: left;
   font-size: 16px;
   font-weight: normal;
   line-height: 42px;
 }
-.form-signin .form-group .col-sm-9{
+.pageRegister .form-signin .form-group .col-sm-9{
   text-align: left;
 }
-.form-signin .form-group .col-sm-9 label{
+.pageRegister .form-signin .form-group .col-sm-9 label{
   padding-top: 0px;
   line-height: 42px;
 }
-.form-signin .form-group .col-sm-9 label input{
+.pageRegister .form-signin .form-group .col-sm-9 label input{
   position: static;
 }
-.form-signin .form-group select{
+.pageRegister .form-signin .form-group select{
   width: 100%;
   height: 42px;
   line-height: 42px;
   padding: 0 10px;
 }
-.form-signin .readme{
+.pageRegister .form-signin .readme{
   text-align: left;
   font-size: 15px;
 }
-.form-signin .readme a{
+.pageRegister .form-signin .readme a{
   color: #333;
 }
-.form-signin button{
+.pageRegister .form-signin button{
   width: 100%;
   background: #fff;
   border-color: #0d71d1;
@@ -91,21 +89,19 @@ body {
   line-height: 36px;
   padding: 0px;
 }
-.form-signin .login{
+.pageRegister .form-signin .login{
   text-align: right;
   padding: 10px 0;
 }
 /* 小屏幕（平板，大于等于 768px） */
 @media (min-width: 768px) {
-  body {
-    background: url(../img/pc/login/img_01.png) no-repeat 50% 0;
-    background-size: cover cover;
-  }
-  .container{
+  .pageRegister.container{
+    width: 100%;
     display:table;
-    height:100%;
+    background: url(../img/pc/login/img_01.png) no-repeat 50% 0;
+    background-size: 100% 100%;
   }
-  .form-signin {
+  .pageRegister .form-signin {
     width: 493px;
     height: 474px;
     margin: 0 auto;
@@ -114,46 +110,46 @@ body {
     vertical-align: middle;
     padding-bottom: 0;
   }
-  .form-signin .form-signin-heading{
+  .pageRegister .form-signin .form-signin-heading{
     padding: 0px;
     margin-bottom: 50px;
   }
-  .form-signin .logo_pc{
+  .pageRegister .form-signin .logo_pc{
     position: absolute;
     left: 50px;
     top: 50px;
   }
-  .form-signin .logo_pc img{
+  .pageRegister .form-signin .logo_pc img{
     width: auto!important;
   }
-  .form-signin .form-signin-heading strong{
+  .pageRegister .form-signin .form-signin-heading strong{
     font-size: 33px;
     color: #fff;
     font-weight: 200;
   }
-  .form-signin .form-signin-body{
+  .pageRegister .form-signin .form-signin-body{
     background: #fff;
     padding: 40px 57px;
     border-radius: 10px;
   }
-  .form-signin .form-signin-body .item .code{
+  .pageRegister .form-signin .form-signin-body .item .code{
     height: 42px;
     line-height: 42px;
     width: 117px;
     font-size: 15px;
   }
-  .form-signin input[type="text"],
-  .form-signin input[type="password"] {
+  .pageRegister .form-signin input[type="text"],
+  .pageRegister .form-signin input[type="password"] {
     height: 48px;
     line-height: 48px;
   }
-  .form-signin button{
+  .pageRegister .form-signin button{
     height: 52px;
     line-height: 52px;
     font-size: 15px;
     margin-top: 28px;
   }
-  .form-signin .login{
+  .pageRegister .form-signin .login{
     width: 142px;
     height: 52px;
     line-height: 52px;
@@ -161,7 +157,7 @@ body {
     right: 50px;
     top: 50px;
   }
-  .form-signin .login a{
+  .pageRegister .form-signin .login a{
     display: block;
     border: 1px solid #fff;
     color: #fff!important;

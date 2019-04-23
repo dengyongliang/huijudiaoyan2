@@ -1,27 +1,27 @@
 @charset "UTF-8";
-.navbar{
+.pageTask .navbar{
   margin-bottom: 55px;
 }
-.main .container{
+.pageTask .main .container{
   margin-top: 15px;
 }
-.main .tabs{
+.pageTask .main .tabs{
   padding: 0px 13px;
 }
-.main .tabs li{
+.pageTask .main .tabs li{
   list-style: none;
   margin-bottom: 10px;
   padding: 0 2px;
   position: relative;
 }
-.main .tabs li a{
+.pageTask .main .tabs li a{
   display: block;
   height: 28px;
   line-height: 26px;
   background: none;
   padding: 0px;
 }
-.main .tabs li .num{
+.pageTask .main .tabs li .num{
   position: absolute;
   right: -3px;
   top: -3px;
@@ -36,80 +36,80 @@
   line-height: 12px;
   font-style: normal;
 }
-.main .tabs li.active a{
+.pageTask .main .tabs li.active a{
   background: #0d71d1;
   color: #fff;
   font-weight: normal;
 }
-.main .list{
+.pageTask .main .list{
   padding: 0px;
 }
-.main .list li{
+.pageTask .main .list li{
   list-style: none;
   padding: 10px;
   background: #fff;
   margin-bottom: 10px;
 }
-.main .list li .row{
+.pageTask .main .list li .row{
   margin: 0px;
   padding: 8px 0;
 }
-.main .list li .row h3{
+.pageTask .main .list li .row h3{
   font-size: 16px;
   padding: 0px;
   margin: 0px;
 }
-.main .list li .row .commission{
+.pageTask .main .list li .row .commission{
   padding: 0px;
 }
-.main .list li .row .money{
+.pageTask .main .list li .row .money{
   font-weight: 600;
   font-size: 18px;
   font-style: normal;
 }
-.main .list li .row1{
+.pageTask .main .list li .row1{
   border-bottom: 1px dashed #cccccc;
 }
-.main .list li .p1{
+.pageTask .main .list li .p1{
   font-size: 12px;
 }
-.main .list li .p2{
+.pageTask .main .list li .p2{
   color: #999999;
   font-size: 12px;
 }
-.main .list .btn{
+.pageTask .main .list .btn{
   height: 24px;
   line-height: 24px;
   padding: 0px;
   font-size: 12px;
   display: block;
 }
-.main .list .btn .icon{
+.pageTask .main .list .btn .icon{
   margin-right: 5px;
 }
-.main .list .btn .icon img{
+.pageTask .main .list .btn .icon img{
   height: 12px;
 }
-.main .list .times img{
+.pageTask .main .list .times img{
   height: 12px;
 }
-.main .list .row-left,
-.main .list .row-right{
+.pageTask .main .list .row-left,
+.pageTask .main .list .row-right{
   padding: 0px;
 }
-.main .list .row-right .row>div:nth-child(1){
+.pageTask .main .list .row-right .row>div:nth-child(1){
   padding-left: 0px;
 }
-.main .list .row-right .row>div:nth-child(2){
+.pageTask .main .list .row-right .row>div:nth-child(2){
   padding: 0px 7px;
 }
-.main .list .row-right .row>div:nth-child(3){
+.pageTask .main .list .row-right .row>div:nth-child(3){
   padding-right: 0px;
 }
-.main .list .times{
+.pageTask .main .list .times{
   padding: 10px 0 0 0!important;
 }
-.main .list .times span{
+.pageTask .main .list .times span{
   color: #ef0100;
   font-size: 12px;
 }
@@ -120,89 +120,89 @@
 
 /* 中等屏幕（桌面显示器，大于等于 992px） */
 @media (min-width: 992px) and (max-width: 1199px) {
-  .col-xs-12{
+  .pageTask .col-xs-12{
     width: 100%;
   }
 }
 
 /* 大屏幕（大桌面显示器，大于等于 1200px） */
 @media (min-width: 1200px) {
-  .navbar{
+  .pageTask .navbar{
     margin-bottom: 0;
   }
-  .main .container{
+  .pageTask .main .container{
     padding: 0px;
     margin-top: 0px;
   }
-  .main .tabs{
+  .pageTask .main .tabs{
     padding: 28px 13px;
     margin-bottom: 0px;
   }
-  .main .tabs li{
+  .pageTask .main .tabs li{
     width: 156px;
     margin-right: 23px;
     margin-bottom: 0px;
   }
-  .main .tabs li .num{
+  .pageTask .main .tabs li .num{
     width: 20px;
     height: 20px;
     line-height: 20px;
     right: -8px;
     top: -8px;
   }
-  .main .tabs li a{
+  .pageTask .main .tabs li a{
     height: 42px;
     line-height: 42px;
   }
-  .main .list li{
+  .pageTask .main .list li{
     border-left: 3px solid #0d71d1;
     padding: 30px 50px 20px 50px;
   }
-  .main .list li .row h3{
+  .pageTask .main .list li .row h3{
     font-size: 22px;
   }
-  .main .list li .row .commission{
+  .pageTask .main .list li .row .commission{
     text-align: right;
   }
-  .main .list li .row .row-left{
+  .pageTask .main .list li .row .row-left{
     padding-left: 0px;
   }
-  .main .list li .row .row-right{
+  .pageTask .main .list li .row .row-right{
     padding: 0px;
   }
-  .main .list li .row .p1{
+  .pageTask .main .list li .row .p1{
     font-size: 15px;
   }
-  .main .list li .row .btn{
+  .pageTask .main .list li .row .btn{
     height: 34px;
     line-height: 34px;
     font-size: 14px;
   }
-  .main .list li .row .btn .icon{
+  .pageTask .main .list li .row .btn .icon{
     margin-right: 13px;
   }
-  .main .list li .row .btn .icon img{
+  .pageTask .main .list li .row .btn .icon img{
     height: auto;
   }
-  .main .list li .row2 .row-right>.row{
+  .pageTask .main .list li .row2 .row-right>.row{
     text-align: right;
   }
-  .main .list li .row2 .row-right .col-md-4{
+  .pageTask .main .list li .row2 .row-right .col-md-4{
     width: 125px;
     padding: 0px;
     float: none;
     display: inline-block;
     margin-left: 15px;
   }
-  .main .list li.ing .row2 .row-right .col-md-4{
+  .pageTask .main .list li.ing .row2 .row-right .col-md-4{
     float: right;
     padding: 0 0 0 15px;
   }
-  .main .list li.ing .row2 .row-right .col-md-8{
+  .pageTask .main .list li.ing .row2 .row-right .col-md-8{
     float: left;
     text-align: right;
   }
-  .main .list li.over .row2 .row-right .col-md-4{
+  .pageTask .main .list li.over .row2 .row-right .col-md-4{
     float: right;
     padding: 0 0 0 15px;
   }

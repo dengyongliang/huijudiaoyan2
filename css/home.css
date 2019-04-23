@@ -1,42 +1,42 @@
 @charset "UTF-8";
-.navbar{
+.pageHome .navbar{
   margin-bottom: 55px;
 }
-.main .container{
+.pageHome .main .container{
   margin-top: 15px;
 }
-.main .container>div{
+.pageHome .main .container>div{
   background: #fff;
   padding: 15px;
 }
-.main .container>div strong{
+.pageHome .main .container>div strong{
   display: block;
   border-bottom: 1px solid #cccccc;
   padding-bottom: 10px;
   font-size: 14px;
 }
-.main .container>div table{
+.pageHome .main .container>div table{
   font-size: 12px;
   width: 100%;
   margin-bottom: 20px;
 }
-.main .container>div table td{
+.pageHome .main .container>div table td{
   padding: 10px 0;
 }
-.main .container>div table td.col2{
+.pageHome .main .container>div table td.col2{
   text-align: right;
   padding-right: 10px;
 }
-.main .container>div table td input{
+.pageHome .main .container>div table td input{
   width: 60%;
   height: 24px;
   line-height: 24px;
   padding: 0 10px;
 }
-.main .container>div table td label{
+.pageHome .main .container>div table td label{
   line-height: 30px;
 }
-.main .container>div table td a{
+.pageHome .main .container>div table td a{
   color: #307ed3;
 }
 /* 小屏幕（平板，大于等于 768px） */
@@ -46,53 +46,53 @@
 
 /* 中等屏幕（桌面显示器，大于等于 992px） */
 @media (min-width: 992px) and (max-width: 1199px) {
-  .col-xs-12{
+  .pageHome .col-xs-12{
     width: 100%;
   }
 }
 
 /* 大屏幕（大桌面显示器，大于等于 1200px） */
 @media (min-width: 1200px) {
-  .navbar{
+  .pageHome .navbar{
     margin-bottom: 0;
   }
-  .main .container{
+  .pageHome .main .container{
     margin-top: 30px;
     padding: 0px;
   }
-  .main .container>div{
+  .pageHome .main .container>div{
     padding: 50px;
   }
-  .main .container>div strong{
+  .pageHome .main .container>div strong{
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 15px;
   }
-  .main .container>div table{
+  .pageHome .main .container>div table{
     font-size: 14px;
     margin-bottom: 40px;
   }
-  .main .container>div table td.col1{
+  .pageHome .main .container>div table td.col1{
     width: 20%;
   }
-  .main .container>div table td.col2{
+  .pageHome .main .container>div table td.col2{
     width: 30%;
     text-align: left;
   }
-  .main .container>div table td .radio-inline input{
+  .pageHome .main .container>div table td .radio-inline input{
     height: 20px;
     line-height: 0px;
     display: inline-block;
   }
-  .main .container>div table td .radio-inline .text{
+  .pageHome .main .container>div table td .radio-inline .text{
     margin-left: 15px;
     display: inline-block;
   }
-  .main .container>div table td input{
+  .pageHome .main .container>div table td input{
     height: 42px;
     line-height: 40px;
   }
-  .main .container>div table td a{
+  .pageHome .main .container>div table td a{
     font-size: 15px;
   }
 }

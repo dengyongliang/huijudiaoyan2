@@ -1,40 +1,38 @@
 @charset "UTF-8";
-html{
-  height: 100%;
-}
-body {
-  height: 100%;
+.pageLogin.container{
+  height: 100vh;
   background: url(../img/m/login/img_01.png) no-repeat 50% 0;
-  background-size: auto 100%;
+  background-size: 100% 100%;
+  overflow: auto;
 }
-.form-signin {
+.pageLogin .form-signin {
   margin: 0 auto;
   text-align: center;
   padding: 0 5px;
 }
-.form-signin .form-signin-heading{
+.pageLogin .form-signin .form-signin-heading{
   margin: 0px;
   padding: 100px 0;
 }
-.form-signin .form-signin-heading img{
+.pageLogin .form-signin .form-signin-heading img{
   width: 70%;
 }
-.form-signin .form-signin-body .item{
+.pageLogin .form-signin .form-signin-body .item{
   position: relative;
 }
-.form-signin .form-signin-body .item .icon{
+.pageLogin .form-signin .form-signin-body .item .icon{
   position: absolute;
   left: 10px;
   top: 8px;
 }
-.form-signin .form-signin-body .item .icon-r{
+.pageLogin .form-signin .form-signin-body .item .icon-r{
   position: absolute;
   left: auto!important;
   top: 10px;
   right: 10px;
   cursor: pointer;
 }
-.form-signin .form-signin-body .item .code{
+.pageLogin .form-signin .form-signin-body .item .code{
   position: absolute;
   right: 0px;
   bottom: 8px;
@@ -44,11 +42,11 @@ body {
   height: 28px;
   margin-bottom: 10px;
 }
-.form-signin .form-signin-body .item .code img{
+.pageLogin .form-signin .form-signin-body .item .code img{
   height: 100%;
 }
-.form-signin input[type="text"],
-.form-signin input[type="password"] {
+.pageLogin .form-signin input[type="text"],
+.pageLogin .form-signin input[type="password"] {
   width: 100%;
   height: 40px;
   line-height: 40px;
@@ -59,7 +57,7 @@ body {
   background: none;
   padding-left: 38px;
 }
-.form-signin button{
+.pageLogin .form-signin button{
   width: 100%;
   background: #fff;
   border-color: #0d71d1;
@@ -68,36 +66,37 @@ body {
   line-height: 36px;
   padding: 0px;
 }
-.form-signin .reg{
+.pageLogin .form-signin .reg{
   text-align: right;
   font-size: 14px;
   padding: 10px 0 15px 0;
 }
-.form-signin .reg a{
+.pageLogin .form-signin .reg a{
   color: #0d71d1;
 }
-.form-signin .other{
+.pageLogin .form-signin .other{
   color: #a1a1a1;
   padding: 35px 0 18px 0;
   border-bottom: 1px solid #e6e6e6;
 }
-.form-signin .wx{
+.pageLogin .form-signin .wx{
   height: 22px;
+  margin-bottom: 30px;
 }
-.form-signin .wx img{
+.pageLogin .form-signin .wx img{
   height: 100%;
 }
 /* 小屏幕（平板，大于等于 768px） */
 @media (min-width: 768px) {
-  body {
-    background: url(../img/pc/login/img_01.png) no-repeat 50% 0;
-    background-size: cover cover;
-  }
-  .container{
+  .pageLogin.container{
+    width: 100%;
     display:table;
-    height:100%;
+    margin: 0px;
+    padding: 0px;
+    background: url(../img/pc/login/img_01.png) no-repeat 50% 0;
+    background-size: 100% 100%;
   }
-  .form-signin {
+  .pageLogin .form-signin {
     width: 493px;
     height: 474px;
     margin: 0 auto;
@@ -105,58 +104,58 @@ body {
     display: table-cell;
     vertical-align: middle;
   }
-  .form-signin .form-signin-heading{
+  .pageLogin .form-signin .form-signin-heading{
     padding: 0px;
     margin-bottom: 50px;
   }
-  .form-signin .logo_pc{
+  .pageLogin .form-signin .logo_pc{
     position: absolute;
     left: 50px;
     top: 50px;
   }
-  .form-signin .logo_pc img{
+  .pageLogin .form-signin .logo_pc img{
     width: auto!important;
   }
-  .form-signin .form-signin-heading strong{
+  .pageLogin .form-signin .form-signin-heading strong{
     font-size: 33px;
     color: #fff;
     font-weight: 200;
   }
-  .form-signin .form-signin-body{
+  .pageLogin .form-signin .form-signin-body{
     background: #fff;
     padding: 50px 57px 40px 57px;
     border-radius: 10px;
   }
-  .form-signin .form-signin-body .item .code{
+  .pageLogin .form-signin .form-signin-body .item .code{
     height: auto;
     margin-bottom: 0;
   }
-  .form-signin .form-signin-body .item .icon{
+  .pageLogin .form-signin .form-signin-body .item .icon{
     left: 10px;
     top: 13px;
   }
-  .form-signin .form-signin-body .item .icon-r{
+  .pageLogin .form-signin .form-signin-body .item .icon-r{
     top: 13px;
     right: 10px;
   }
-  .form-signin input[type="text"],
-  .form-signin input[type="password"] {
+  .pageLogin .form-signin input[type="text"],
+  .pageLogin .form-signin input[type="password"] {
     height: 48px;
     line-height: 48px;
   }
-  .form-signin button{
+  .pageLogin .form-signin button{
     height: 52px;
     line-height: 52px;
     font-size: 15px;
     margin-top: 28px;
   }
-  .form-signin .other{
+  .pageLogin .form-signin .other{
     color: #a1a1a1;
     padding: 35px 0 18px 0;
     border-bottom: 1px solid #e6e6e6;
     margin-bottom: 20px;
   }
-  .form-signin .reg{
+  .pageLogin .form-signin .reg{
     width: 142px;
     height: 52px;
     line-height: 52px;
@@ -164,7 +163,7 @@ body {
     right: 50px;
     top: 50px;
   }
-  .form-signin .reg a{
+  .pageLogin .form-signin .reg a{
     display: block;
     border: 1px solid #fff;
     color: #fff!important;
@@ -172,7 +171,7 @@ body {
     text-decoration: none;
     border-radius: 5px;
   }
-  .form-signin .wx{
+  .pageLogin .form-signin .wx{
     height: auto;
   }
 }
