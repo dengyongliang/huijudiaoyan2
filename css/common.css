@@ -103,7 +103,11 @@ footer{
   padding: 0px 15px;
   text-align: center;
 }
-
+.required{
+  color:#eb0100;
+  display: inline-block;
+  margin-right: 5px;
+}
 /* 小屏幕（平板，大于等于 768px） */
 @media (min-width: 768px) {
 

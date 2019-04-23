@@ -11,10 +11,8 @@
   text-align: center;
   width: 100%;
   height: 47px;
-  position: fixed;
+  position: relative;
   border-bottom: 1px solid #dcdcdc;
-  top: 0px;
-  left: 0px;
   z-index: 1;
 }
 .pageQu .main .title-info h4{
@@ -60,9 +58,8 @@
 }
 .pageQu .main .row .col-left .scroll{
   overflow: auto;
-  height: calc(100% - 44px - 45px);
-  padding: 0 15px;
-  margin-top: 44px;
+  height: calc(100% - 44px);
+  padding: 0;
 }
 .pageQu .main .row .col-left .scroll img{
   width: 100%;
@@ -75,20 +72,25 @@
   padding: 0 15px;
   font-size: 12px;
   position: relative;
-  border-top: 1px solid #c6c6c6;
 }
-.pageQu .main .row .col-left .search .text{
-  position: absolute;
-  left: 15px;
+.pageQu .main .row .col-left .search .back{
+  padding: 0px;
+}
+.pageQu .main .row .col-left .search .back img{
+  padding: 0px;
+  width: 35px;
+  height: 35px;
 }
 .pageQu .main .row .col-left .search .input{
-  margin-left: 35px;
+  text-align: center;
 }
 .pageQu .main .row .col-left .search input{
-  height: 26px;
-  line-height: 26px;
-  width: 100%;
+  height: 30px;
+  line-height: 30px;
   padding: 0 10px;
+  display: inline-block;
+  margin-left: 5px;
+  width: 120px;
 }
 .pageQu .main .row .col-right{
   background: #fff;
@@ -258,8 +260,10 @@
   }
   .pageQu .main .row .col-left .search .input{
     margin: 0px;
+    text-align: left;
   }
   .pageQu .main .row .col-left .search input{
+    width: 100%;
     height: 42px;
     line-height: 42px;
   }
