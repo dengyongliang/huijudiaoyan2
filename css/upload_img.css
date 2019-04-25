@@ -24,9 +24,11 @@
 }
 .pageUpload .main .upload .row{
   padding: 0px 15px;
+  margin: 0px;
 }
 .pageUpload .main .upload .row li{
   list-style: none;
+  padding: 0px;
 }
 .pageUpload .main .upload .row .img{
   height: 200px;
@@ -118,8 +120,10 @@
 
 /* 大屏幕（大桌面显示器，大于等于 1200px） */
 @media (min-width: 1200px) {
+  .pageUpload{
+    padding-top: 126px;
+  }
   .pageUpload .main .title-info{
-    margin-top: 30px;
     background: rgb(255,255,255); /* Old browsers */
     background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(239,239,241,1) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,241,1) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -137,7 +141,6 @@
   }
   .pageUpload .main .upload .row{
     padding: 0 125px;
-    margin: 0px;
   }
   .pageUpload .main .upload .row li{
     padding: 0 34px;

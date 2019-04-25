@@ -194,6 +194,9 @@
 
 /* 大屏幕（大桌面显示器，大于等于 1200px） */
 @media (min-width: 1200px) {
+  .pageQu{
+    padding-top: 126px;
+  }
   .pageQu .main{
     height: auto;
   }
@@ -204,7 +207,6 @@
     height: 127px;
     line-height: 120px;
     position: relative;
-    margin-top: 30px;
     background: rgb(255,255,255); /* Old browsers */
     background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(239,239,241,1) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(239,239,241,1) 100%); /* Chrome10-25,Safari5.1-6 */

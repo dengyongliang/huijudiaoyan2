@@ -127,6 +127,9 @@
 
 /* 大屏幕（大桌面显示器，大于等于 1200px） */
 @media (min-width: 1200px) {
+  .pageTask{
+    padding-top: 126px;
+  }
   .pageTask .navbar{
     margin-bottom: 0;
   }
@@ -135,7 +138,7 @@
     margin-top: 0px;
   }
   .pageTask .main .tabs{
-    padding: 28px 13px;
+    padding: 0px 13px 28px 13px;
     margin-bottom: 0px;
   }
   .pageTask .main .tabs li{
