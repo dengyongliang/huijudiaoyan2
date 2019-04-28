@@ -53,8 +53,11 @@
   padding: 0px;
 }
 .pageQu .main .row .col-left{
-  height: 50vh;
+  height: 40vh;
   background: #fff;
+}
+.pageQu .main .row .col-left>div{
+  height: 100%;
 }
 .pageQu .main .row .col-left .scroll{
   overflow: auto;
@@ -94,7 +97,7 @@
 }
 .pageQu .main .row .col-right{
   background: #fff;
-  height: 50vh;
+  height: 60vh;
 }
 .pageQu .main .row .col-right .progress {
   box-shadow:
@@ -114,8 +117,11 @@
 .pageQu .main .row .col-right .list li{
   list-style: none;
   padding: 10px 15px;
-  font-size: 14px;
+  font-size: 15px;
   border-bottom: 1px solid #ececec;
+}
+.pageQu .main .row .col-right .list li .t{
+  font-weight: 600;
 }
 .pageQu .main .row .col-right .list .required{
   color:#eb0100;
@@ -254,10 +260,13 @@
     height: auto;
     padding: 30px;
   }
+  .pageQu .main .row .col-left>div{
+    height: auto;
+  }
   .pageQu .main .row .col-left .scroll{
     padding: 0px;
-    overflow: hidden;
     margin: 0px;
+    max-height: 400px;
   }
   .pageQu .main .row .col-left .search{
     padding: 20px;

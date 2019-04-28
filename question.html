@@ -45,13 +45,15 @@
       </div>
       <div class="row">
         <div class="col-xs-12 col-md-4 col-left">
-          <div class="scroll">
-            <img src="./img/upload_img.png" alt="" />
-          </div>
-          <div class="search row">
-            <a href="upload_img.html" class="back col-xs-2 hidden-lg"><i class="icon"><img src="./img/icon/icon_05.png" alt="" /></i></a>
-            <div class="input col-xs-8 col-lg-12"><span class="text"><i class="required">*</i>资讯1</span><input type="text" /></div>
-            <span class="text total col-xs-2 hidden-lg">1/2</span>
+          <div id="col-left-scroll">
+            <div class="scroll">
+              <img src="./img/upload_img.png" alt="" />
+            </div>
+            <div class="search row">
+              <a href="upload_img.html" class="back col-xs-2 hidden-lg"><i class="icon"><img src="./img/icon/icon_05.png" alt="" /></i></a>
+              <div class="input col-xs-8 col-lg-12"><span class="text"><i class="required">*</i>资讯1</span><input type="text" /></div>
+              <span class="text total col-xs-2 hidden-lg">1/2</span>
+            </div>
           </div>
         </div>
         <div class="col-xs-12 col-md-8 col-right">
@@ -285,4 +287,17 @@
 </body>
 <script type="text/javascript" src="widget/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="widget/bootstrap/js/bootstrap.min.js"></script>
+<script>
+  window.onscroll = function () {
+    if (document.body.clientWidth >= 1200) {
+      var t = document.documentElement.scrollTop || document.body.scrollTop;
+      var ele = document.getElementById('col-left-scroll');
+      if (t >= 250) {
+        ele.style="position:fixed;top: 0px;width:340px;"
+      } else {
+        ele.style=""
+      }
+    }
+  }   
+</script>
 </html>
