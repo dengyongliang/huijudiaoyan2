@@ -260,7 +260,7 @@
     left: 0px;
   }
   .pageQu .main .row .col-left{
-    height: auto;
+    min-height: 499px;/*解决滚动图片区固定顶部时，禁止高度变化，影响滚动条*/
     padding: 30px;
   }
   .pageQu .main .row .col-left>div{
