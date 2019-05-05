@@ -87,6 +87,9 @@
 .pageQu .main .row .col-left .search .input{
   text-align: center;
 }
+.pageQu .main .row .col-left .search .input .text{
+  font-weight: 600;
+}
 .pageQu .main .row .col-left .search input{
   height: 30px;
   line-height: 30px;
